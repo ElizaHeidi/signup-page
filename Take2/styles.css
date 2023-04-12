@@ -13,7 +13,7 @@
 }
 
 body {
-   background-image: url(IMG_0036\ copy.JPG);
+   
     background-color: var(--background-color);
    display: flex;
 }
@@ -28,10 +28,41 @@ body {
     flex: 2;
 }
 
-.img-container {
+.wrapper {
     height: 100vh;
     width: 33%;
+    display: flex;
     border: 2px solid;
+    position: relative;
+    flex: 1;
+}
+
+.img-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+}
+
+.logo {
+    height: 75px;
+    max-width: 33%;
+    position: absolute;
+    top: 15rem;
+    background-color: rgba(105, 79, 93, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img {
+    height: 5rem;
+    width: 4rem;
+}
+
+.logo > p {
+    color: whitesmoke;
 }
 
 .hero-wrapper {
@@ -43,7 +74,21 @@ body {
     flex: 1;
 }
 
-.logo > img {
-    height: 5rem;;
-    width: 5rem;
+.hero-top {
+    margin-top: 10rem;
 }
+
+.hero-signup {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: flex-end;
+    background: linear-gradient(450deg, hsla(126, 19%, 79%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+    background: -moz-linear-gradient(450deg, hsla(126, 19%, 79%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+    background: -webkit-linear-gradient(450deg, hsla(126, 19%, 79%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+}
+
+.signup-left {
+    align-self: flex-end;
+}
+

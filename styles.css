@@ -142,13 +142,7 @@ body {
      font-family: var(--font-family1)
  }
 
- input {
-    border: 2px solid #68a691;
- }
-
-
-
- .btn-area {
+  .btn-area {
     height: 33%;
     width: 100vw;
     margin-left: 25px;
@@ -187,9 +181,28 @@ body {
     color: var(--color1); 
 }
 
+form {
+    display: flex;
+    width: 100%;
+}
+
+input {
+    border: 2px solid #68a691;
+    box-shadow: 2px 2px 5px rgba(100, 100, 100, 0.3);
+ }
+
 input:focus {
     border: 2px solid var(--color1);
     outline: none;
     box-shadow: 2px 2px 5px rgba(100, 100, 100, 0.3);
-    background-color: rgb(241, 241, 241);
+}
+
+input:valid {
+    border: 2px solid #68a691;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(100, 100, 100, 0.3);
+}
+
+input:invalid {
+    border: 2px solid #F7788F;
 }
