@@ -1,0 +1,49 @@
+/* * {
+    border: 2px solid pink
+} */
+
+@import 'normalize.css';
+
+:root {
+--background-color: #fff3eb;
+--color1: #694f5d;
+--color3: #bfd3c1;
+--font-family1: 'oswald';
+--font-family2: 'inria sans'
+}
+
+body {
+   background-image: url(IMG_0036\ copy.JPG);
+    background-color: var(--background-color);
+   display: flex;
+}
+
+.master-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2;
+}
+
+.img-container {
+    height: 100vh;
+    width: 33%;
+    border: 2px solid;
+}
+
+.hero-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    flex: 1;
+}
+
+.logo > img {
+    height: 5rem;;
+    width: 5rem;
+}

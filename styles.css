@@ -159,6 +159,7 @@ body {
  .btn-area > button {
     width: 145px;
     height: 32px;
+    margin-top: 20px;
     background-color: #F7788F;
     color: var(--color1);
     font-family: var(--font-family1);
@@ -184,4 +185,11 @@ body {
 
  .log-in:hover {
     color: var(--color1); 
+}
+
+input:focus {
+    border: 2px solid var(--color1);
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(100, 100, 100, 0.3);
+    background-color: rgb(241, 241, 241);
 }
