@@ -56,7 +56,7 @@ body {
 }
 
 .logo > p {
-    font-size: 62px;
+    font-size: 4rem;
     color: whitesmoke;
     font-family: 'norse-bold';
     margin-top: 82px;
@@ -68,7 +68,7 @@ body {
     margin-left: 350px;
     /* border: 2px solid; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .hero-top {
@@ -89,7 +89,7 @@ body {
 }
 
 .hero-signup {
-    height: 220px;
+    height: 29%;
     width: calc(100% - 10px);
     background: linear-gradient(450deg, hsla(126, 19%, 79%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
     background: -moz-linear-gradient(450deg, hsla(126, 19%, 79%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
@@ -102,13 +102,16 @@ body {
     flex: 1 1 auto;
     color: var(--color1);
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 .signup-left {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    width: 33%;
     margin-left: 25px;
+    flex: 0;  
+
 }
 
 .signup-left > p {
@@ -124,13 +127,12 @@ body {
 
 .signup-right {
     /* height: 100%; */
-    margin-left: 55px;
-    margin-right: 20px;
+    width: 33%;
+    margin-top: 66.5px;
+    margin-left: 25px;
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
-    flex-wrap: wrap;  
-    box-sizing: border-box;  
+    flex: 0;  
 }
 
 .signup-right  > p {
@@ -144,9 +146,7 @@ body {
     border: 2px solid #68a691;
  }
 
- input[type=email]:focus {
-    border: solid 2px #68a691;
-}
+
 
  .btn-area {
     height: 33%;
