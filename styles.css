@@ -43,7 +43,7 @@ body {
     width: 350px;
     height: 75px;
     position: absolute;
-    top: calc(100vh - 80%);
+    top: calc(100vh - 79%);
     background-color: rgba(105, 79, 93, 50%);
     display: flex;
     justify-content: center;
@@ -159,8 +159,10 @@ body {
  .btn-area > button {
     width: 145px;
     height: 32px;
-    background-color: var(--color1);
-    color: whitesmoke;
+    background-color: #F7788F;
+    color: var(--color1);
+    font-family: var(--font-family1);
+    font-size: 15px;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 2px 2px 2px rgba(0,0,0,15%);;
@@ -172,6 +174,7 @@ body {
 
  .btn-area > p {
     font-family: var(--font-family1);
+    color: var(--color1);
  }
 
  a {
